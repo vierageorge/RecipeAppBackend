@@ -5,3 +5,4 @@
 3. To create the Django Proyect, run: `docker-compose run app sh -c "django-admin.py startproject app ."`
 4. Create a Core App `docker-compose run app sh -c "python manage.py startapp core"` and delete `views.py` and `tests.py`
 5. Create a `tests` folder inside core and create `__init__.py` file inside it.
+6. Run Migrations for the core app `docker-compose run app sh -c "python manage.py makemigrations core"`
