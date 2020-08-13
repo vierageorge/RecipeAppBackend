@@ -16,4 +16,4 @@
 14. Create recipe app `docker-compose run --rm app sh -c "python manage.py startapp recipe"`
 15. Clean up recipe directory by deleting migrations directory and admin, models, tests files and create tests directory.
 16. Add recipe app to the app settings INSTALLED APPS.
-17. Create the migrations for the recipe app `docker-compose run --rm app sh -c "python manage.py makemigrations"`
+17. Every time a model is create, create its migrations `docker-compose run --rm app sh -c "python manage.py makemigrations"`
