@@ -6,3 +6,4 @@
 4. Create a Core App `docker-compose run app sh -c "python manage.py startapp core"` and delete `views.py` and `tests.py`
 5. Create a `tests` folder inside core and create `__init__.py` file inside it.
 6. Run Migrations for the core app `docker-compose run app sh -c "python manage.py makemigrations core"`
+7. Create `core/management/commands/wait_for_db.py` file (with directories and `__init__.py` files)
