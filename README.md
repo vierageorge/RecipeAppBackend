@@ -13,3 +13,6 @@
 11. Inside user app directory, remove: migrations, admin, model and tests because those are covered on the core app.
 12. Create tests folder inside user app directory.
 13. Create `serializers.py` file inside `user` directory.
+14. Create recipe app `docker-compose run --rm app sh -c "python manage.py startapp recipe"`
+15. Clean up recipe directory by deleting migrations directory and admin, models, tests files and create tests directory.
+16. Add recipe app to the app settings INSTALLED APPS.
