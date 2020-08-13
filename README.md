@@ -12,4 +12,4 @@
 10. Create a new app for users `docker-compose run --rm app sh -c "python manage.py startapp user"`
 11. Inside user app directory, remove: migrations, admin, model and tests because those are covered on the core app.
 12. Create tests folder inside user app directory.
-
+13. Create `serializers.py` file inside `user` directory.
